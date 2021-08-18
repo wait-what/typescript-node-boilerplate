@@ -11,7 +11,7 @@ The license is there for you to use.
 - Use linux or modify the scripts yourself so that they'd work
 
 ### Clone the repository
-> git clone https://gitlab.com/Wait_What_/typescript-node-boilerplate.git my-project
+> git clone https://github.com/wait-what/typescript-node-boilerplate.git my-project
 
 ### Go into your project directory
 > cd my-project
@@ -21,7 +21,7 @@ The license is there for you to use.
 
 ### Configure git
 Set the remote repository
-> git remote set-url origin https://gitlab.com/Wait_What_/my-project.git
+> git remote set-url origin https://github.com/wait-what/my-project.git
 
 Or if you do not want git
 > rm -rf ./.git
