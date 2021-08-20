@@ -1,40 +1,54 @@
-# Typescript node boilerplate
-A boilerplate for a typescript project so you could get started with only 3 commands!
+# Typescript+Node.js boilerplate
+A boilerplate for a typescript project so you could get started quicker without using any weird tools. Perfect if you use git and vscode.
 
-## No credit required or anything, use it as you wish!
-The license is there for you to use.
+## License
+This project is licensed under the [Unlicense license](./LICENSE), so you can choose whatever license you want.
 
 ## Installation
-
-### Prerequisites 
-- Have the following things installed: `node`, `yarn`, `git`, `tsc`
-- Use linux or modify the scripts yourself so that they'd work
+### Prerequisites
+- Use linux
+- Have the following things installed: `node`, `yarn`, `git`, `tsc` and Visual Studio Code.
 
 ### Clone the repository
-> git clone https://github.com/wait-what/typescript-node-boilerplate.git my-project
+```
+git clone https://github.com/wait-what/typescript-node-boilerplate.git my-project
+```
 
 ### Go into your project directory
-> cd my-project
+```
+cd my-project
+```
 
 ### Install dependencies
-> yarn
+```
+yarn
+```
 
 ### Configure git
-Set the remote repository
-> git remote set-url origin https://github.com/wait-what/my-project.git
+- Reset the git repository:
+```
+rm -rf .git
+git init
+```
 
-Or if you do not want git
-> rm -rf ./.git
+- Set the origin:
+```
+git remote set-url origin https://github.com/username/my-project.git
+```
 
-### Edit package.json and LICENSE 
+### Choose a licence
+- Delete the existing LICENSE file, unless you wish to keep the Unlicense license.
+- Pick the license you want from here: [list of open source licenses](https://spdx.org/licenses/)
+
+### Edit package.json
+- Set the correct license string
 - Set the author name
 - Set the repository url (if you want to use git)
 
-### VSCode
-If you use vscode, open your project in vscode and hit F5
+### Write a README.md
+- Describe your project briefly at the top
+- Explain how to run and use your program
+- Mention which license it's licensed under
 
-If you don't use vscode
-> rm -rf .vscode
-
-## License
-This project is licensed under [MIT](./LICENSE)
+## Running
+Press F5 (if you're using VSCode) to start your application. Magic!
