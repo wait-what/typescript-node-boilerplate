@@ -1,9 +1,7 @@
 import Log75, { LogLevel } from 'log75'
-export const logger = new Log75(LogLevel.Debug, true)
+export const logger = new Log75(LogLevel.Debug)
 
-logger.done(
-    logger.createBox([
-        'Hello world!',
-        'Very epic'
-    ])
-)
+logger.table([
+    'Hello world!',
+    'Very epic'
+], 'done')
